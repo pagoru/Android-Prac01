@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="Hola"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="es.pagoru.holamundo.MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nom: Pablo González"
+        android:ems="10"
+        android:layout_x="20dp"
+        android:layout_y="20dp"
+        android:id="@+id/txt_nom" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Edat: 34"
+        android:ems="10"
+        android:layout_x="20dp"
+        android:layout_y="60dp"
+        android:id="@+id/txt_edat" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="No permet les dades"
+        android:ems="10"
+        android:layout_x="20dp"
+        android:layout_y="100dp"
+        android:id="@+id/txt_dades" />
+
+</AbsoluteLayout>
