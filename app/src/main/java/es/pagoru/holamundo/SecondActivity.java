@@ -3,6 +3,7 @@ package es.pagoru.holamundo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by pablo on 19/10/16.
@@ -26,7 +27,7 @@ public class SecondActivity extends AppCompatActivity {
 
         edit_nom_cognom.setText("Nom: " + nom + " " + cognom);
         edit_edat.setText("Edat: " + edat);
-        edit_dades.setText((dades) ? "Accepta les dades" : "No accepta les dades");
+        Toast.makeText(this.getApplicationContext(), (dades) ? "Accepta les dades" : "No accepta les dades", Toast.LENGTH_LONG).show();
 
     }
 
